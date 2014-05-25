@@ -50,6 +50,9 @@ Gravity acceleration signals. Includes 3-axial (x, y, z) mean (mean) and standar
 * timegravityaccstddevy
 * timegravityaccstddevz
 
+### timebodyaccjerk
+Body acceleration jerk signals. Includes 3-axial (x, y, z) mean (mean) and standard deviation (stddev):
+
 * timebodyaccjerkmeanx
 * timebodyaccjerkmeany
 * timebodyaccjerkmeanz
@@ -129,6 +132,9 @@ Gravity acceleration signals. Includes 3-axial (x, y, z) mean (mean) and standar
 * freqgravityaccstddevx
 * freqgravityaccstddevy
 * freqgravityaccstddevz
+
+### freqbodyaccjerk
+Body acceleration jerk signals. Includes 3-axial (x, y, z) mean (mean) and standard deviation (stddev):
 
 * freqbodyaccjerkmeanx
 * freqbodyaccjerkmeany
