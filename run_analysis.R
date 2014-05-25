@@ -5,7 +5,7 @@
 ## has the average value of select variables for each subject and subject 
 ## activity.
 
-run_analysis <- function(outputfile = "analysis.csv") {
+run_analysis <- function(outputfile = "analysis.txt") {
         
         ## Check for packages necessary to run the function
         require(plyr)
@@ -109,5 +109,5 @@ run_analysis <- function(outputfile = "analysis.csv") {
                               colwise(averaging))
         
         ## Write the new table to a file in the working directory
-        write.csv(reshapeframe, outputfile, row.names = FALSE)
+        write.table(reshapeframe, outputfile, sep = " ", row.names = FALSE)
 }
